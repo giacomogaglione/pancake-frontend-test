@@ -57,15 +57,15 @@ const FarmedStakingCard = () => {
     <StyledFarmStakingCard>
       <CardBody>
         <Heading size="xl" mb="24px">
-          {TranslateString(542, 'Mungi & Deposita')}
+          {TranslateString(542, 'Harvest & Swap')}
         </Heading>
         <CardImage src="/images/cake.svg" alt="cake logo" width={64} height={64} />
         <Block>
-          <Label>{TranslateString(544, 'VACCA da Mungere')}:</Label>
+          <Label>{TranslateString(544, 'Vanilla to Harvest')}:</Label>
           <CakeHarvestBalance />
         </Block>
         <Block>
-          <Label>{TranslateString(546, 'VACCA in Wallet')}:</Label>
+          <Label>{TranslateString(546, 'Vanilla in Wallet')}:</Label>
           <CakeWalletBalance />
         </Block>
         <Actions>
@@ -77,7 +77,7 @@ const FarmedStakingCard = () => {
               width="100%"
             >
               {pendingTx
-                ? TranslateString(548, 'Collecting VACCA')
+                ? TranslateString(548, 'Collecting Vanilla')
                 : TranslateString(532, `Harvest all (${balancesWithValue.length})`)}
             </Button>
           ) : (
