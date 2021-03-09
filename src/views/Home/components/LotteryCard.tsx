@@ -71,13 +71,13 @@ const FarmedStakingCard = () => {
     if (!allowance.toNumber()) {
       return (
         <Button width="100%" disabled={requestedApproval} onClick={handleApprove}>
-          {TranslateString(494, 'Approve CAKE')}
+          {TranslateString(494, 'Approve VACCA')}
         </Button>
       )
     }
     return (
       <Button id="dashboard-buy-tickets" variant="secondary" onClick={onPresentBuy} disabled={lotteryHasDrawn}>
-        {TranslateString(558, 'Buy Tickets')}
+        {TranslateString(558, 'Buy Tickets for VACCA')}
       </Button>
     )
   }
@@ -92,7 +92,7 @@ const FarmedStakingCard = () => {
         </Heading>
         <CardImage src="/images/ticket.svg" alt="cake logo" width={64} height={64} />
         <Block>
-          <Label>{TranslateString(552, 'CAKE to Collect')}:</Label>
+          <Label>{TranslateString(552, 'VACCA to Collect')}:</Label>
           <CakeWinnings />
         </Block>
         <Block>
