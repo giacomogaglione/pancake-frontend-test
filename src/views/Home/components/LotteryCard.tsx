@@ -88,7 +88,7 @@ const FarmedStakingCard = () => {
     <StyledLotteryCard>
       <CardBody>
         <Heading size="xl" mb="24px">
-          {TranslateString(550, 'Your Lottery Winnings')}
+          {TranslateString(550, 'Your VACCA Winnings')}
         </Heading>
         <CardImage src="/images/ticket.svg" alt="cake logo" width={64} height={64} />
         <Block>
@@ -106,7 +106,7 @@ const FarmedStakingCard = () => {
             onClick={handleClaim}
             style={{ marginRight: '8px' }}
           >
-            {TranslateString(556, 'Collect Winnings')}
+            {TranslateString(556, 'Collect VACCA')}
           </Button>
           {renderLotteryTicketButtonBuyOrApprove()}
         </Actions>
