@@ -65,7 +65,7 @@ const FarmedStakingCard = () => {
           <CakeHarvestBalance />
         </Block>
         <Block>
-          <Label>{TranslateString(546, 'Vanilla in Wallet')}:</Label>
+          <Label>{TranslateString(546, 'Tempura in Wallet')}:</Label>
           <CakeWalletBalance />
         </Block>
         <Actions>
@@ -77,7 +77,7 @@ const FarmedStakingCard = () => {
               width="100%"
             >
               {pendingTx
-                ? TranslateString(548, 'Collecting Vanilla')
+                ? TranslateString(548, 'Collecting Tempura')
                 : TranslateString(532, `Harvest all (${balancesWithValue.length})`)}
             </Button>
           ) : (
