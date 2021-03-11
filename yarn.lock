@@ -1726,6 +1726,17 @@
     "@ethersproject/properties" "^5.0.7"
     "@ethersproject/strings" "^5.0.8"
 
+"@giacomogaglione/tempura-kit@^0.14.4":
+  version "0.14.4"
+  resolved "https://registry.yarnpkg.com/@giacomogaglione/tempura-kit/-/tempura-kit-0.14.4.tgz#9b9308ac5d0154fdde56bbe85d80411071bd9087"
+  integrity sha512-eelDAofQohbbfhEWJlls7hPqgG1SkrO0DA1B6IJxz7BOGGB6GbNKJLnUkBETtEQIja5RX7B0czveaIywElCtuA==
+  dependencies:
+    "@types/lodash" "^4.14.162"
+    "@types/styled-system" "^5.1.10"
+    lodash "^4.17.20"
+    react-transition-group "^4.4.1"
+    styled-system "^5.1.5"
+
 "@hapi/address@2.x.x":
   version "2.1.4"
   resolved "https://registry.yarnpkg.com/@hapi/address/-/address-2.1.4.tgz#5d67ed43f3fd41a69d4b9ff7b56e7c0d1d0a81e5"
