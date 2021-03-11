@@ -3,18 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "analyze": "source-map-explorer 'build/static/js/*.js'",
-    "start": "react-scripts start",
-    "build": "CI=false react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
-    "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx}'",
-    "generate:config": "ts-node --compiler-options '{\"module\":\"commonjs\"}' scripts/generateConfig"
+    "start": "node_modules/next/dist/bin/next start -p $PORT"
   },
-  "scripts": {
-  "start": "node_modules/next/dist/bin/next start -p $PORT"
-},
   "husky": {
     "hooks": {
       "pre-commit": "yarn format",
