@@ -12,6 +12,9 @@
     "format": "prettier --write 'src/**/*.{js,jsx,ts,tsx}'",
     "generate:config": "ts-node --compiler-options '{\"module\":\"commonjs\"}' scripts/generateConfig"
   },
+  "scripts": {
+  "start": "node_modules/next/dist/bin/next start -p $PORT"
+},
   "husky": {
     "hooks": {
       "pre-commit": "yarn format",
