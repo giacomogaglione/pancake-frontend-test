@@ -70,5 +70,9 @@
     "prettier": "^2.1.2",
     "source-map-explorer": "^2.5.2",
     "ts-node": "^9.1.1"
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/giacomogaglione/pancake-frontend-test.git",
+  "author": "giacomogaglione <gaglione.giacomo@gmail.com>",
+  "license": "MIT"
 }
